@@ -80,3 +80,8 @@ The project uses SQLite to store student information permanently. Student record
 ## 📄 License
 
 This project is developed for learning and educational purposes.
+
+
+## 📸 Screenshots
+
+![Student Management System](student-management-menu.png)
