@@ -1,0 +1,4 @@
+students.db
+students.csv
+__pycache__/
+*.pyc

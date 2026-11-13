@@ -1,55 +1,82 @@
-Student Management System
+# 🎓 Student Management System
 
-A Python-based Student Management System that uses SQLite to store student records and provides features to manage student information.
+A Python-based Student Management System that uses SQLite to store and manage student records. It also supports CSV import and export for easy data management.
 
-Features
+## 🚀 Features
 
-1. Add Student
+1. Add Student Records
 2. View All Students
-3. Delete Student
-4. Search Student
+3. Delete Student Records
+4. Search Students
 5. Update Student Details
-6. Calculate Student Grade
+6. Calculate Student Grades
 7. Export Student Records to CSV
 8. Import Student Records from CSV
 9. Class Summary
-   - Calculate class average marks
-   - Find the highest-scoring student
+   - Calculate Class Average Marks
+   - Find the Highest-Scoring Student
 
-Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - SQLite Database
 - CSV
-- VS Code
+- Visual Studio Code
 
-Project Structure
+## 📁 Project Structure
 
+```text
 student-management-system/
 │
 ├── student.py
-└── README.md
+├── README.md
+├── students.db       (created when the application runs)
+└── students.csv      (created during CSV export)
+```
 
-How to Run
+## ⚙️ Installation and Setup
 
-1. Install Python.
-2. Open the project folder in VS Code.
-3. Open the terminal from the main "santosh-portfolio" folder.
-4. Run:
+### 1. Install Python
 
-python .\student-management-system\student.py
+Make sure Python is installed on your computer.
 
-Database
+### 2. Clone the Repository
 
-The project uses SQLite to store student records permanently.
+```bash
+git clone https://github.com/santoshpradhan90061/student-management-system.git
+```
 
-CSV Export and Import
+### 3. Open the Project Folder
 
-Student records can be exported to and imported from CSV files.
+```bash
+cd student-management-system
+```
 
-Author
+## ▶️ How to Run
 
-Santosh Pradhan
+Run the following command inside the project folder:
+
+```bash
+python student.py
+```
+
+## 🗄️ Database
+
+The project uses SQLite to store student information permanently. Student records remain available when the application is restarted.
+
+## 📊 CSV Import and Export
+
+- Export student records into CSV files.
+- Import student records from CSV files.
+- Easily manage and transfer student data.
+
+## 👨‍💻 Author
+
+**Santosh Pradhan**
 
 - GitHub: https://github.com/santoshpradhan90061
-- Location: Jajpur, Odisha, India
+- Portfolio: https://santoshpradhan90061.github.io/santosh-portfolio/
+
+## 📄 License
+
+This project is developed for learning and educational purposes.
